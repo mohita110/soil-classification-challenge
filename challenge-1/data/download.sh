@@ -1,17 +1,16 @@
 #!/bin/bash
 
 # Dataset or competition or notebook slug
-# Examples:
-# dataset: 'annam-ai/soilclassification'
-# competition: 'annam-ai/soilclassification'
-# notebook: 'username/notebook-name'
+# dataset: 'soil-classification'
+# competition: 'soil-classification'
+# notebook: 'mohita/soil_classification'
 
-# === Example: Download a dataset ===
-KAGGLE_DATASET="annam-ai/soilclassification"
+# === Download a dataset ===
+KAGGLE_DATASET="soilclassification"
 TARGET_DIR="./data"
 
 echo "Downloading dataset: $KAGGLE_DATASET"
 mkdir -p "$TARGET_DIR"
-kaggle datasets download -d "$KAGGLE_DATASET" -p "$TARGET_DIR" --unzip
+kaggle competitions download -c "$KAGGLE_COMPETITION" -p "$TARGET_DIR" --unzip
 
 echo "Download complete. Files saved to $TARGET_DIR"
