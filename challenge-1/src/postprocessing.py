@@ -7,7 +7,7 @@ Leaderboard Rank: <140>
 
 """
 
-# Here you add all the post-processing related details for the task completed from Kaggle.
+# This code is to test the images in the folder and make its csv file with its output of soil type.
 
 import os
 import numpy as np
