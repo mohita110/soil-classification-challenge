@@ -2,7 +2,7 @@
   "_comment": "This JSON file containing the ml-metrics",
   "Name": "Mohita",
   "Kaggle Username": "mohita110",
-  "Team Name": "soilclassifiers",
+  "Team Name": "TeamZirconia",
   "f1 scores": {
     "_comment": "Here are the class wise f1 scores",
     "alluvial soil": 0.48,
