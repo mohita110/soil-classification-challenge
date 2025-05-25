@@ -2,7 +2,7 @@
 set -e
 
 # ---- Soil Dataset Download ----
-KAGGLE_DATASET="annam-ai/soilclassification"
+KAGGLE_DATASET="annam-ai/soilclassification-part2"
 TARGET_DIR="./data"
 
 echo "Downloading dataset: $KAGGLE_DATASET"
